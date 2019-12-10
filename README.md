@@ -65,6 +65,38 @@
 - 通用物品识别：
 拍照时灯光太暗，以至于拍出来后无法识别
 
+## API的调用
+- 通用物体识别
+
+**调用输入**
+
+```
+# encoding:utf-8
+import requests 
+
+# client_id 为官网获取的AK， client_secret 为官网获取的SK
+host = 'https://aip.baidubce.com/oauth/2.0/token?grant_type=client_credentials&client_id=你的AK&client_secret=你的SK'
+response = requests.get(host)
+if response:
+    print(response.json())
+
+import requests
+import base64
+
+request_url = "https://aip.baidubce.com/rest/2.0/image-classify/v2/advanced_general"
+# 二进制方式打开图片文件
+f = open('图片路径', 'rb')
+img = base64.b64encode(f.read())
+
+params = {"image":img}
+access_token = '24.4df7beea4c26f69ff9f9211c3d26d907.2592000.1578584383.282335-17992992'
+request_url = request_url + "?access_token=" + access_token
+headers = {'content-type': 'application/x-www-form-urlencoded'}
+response = requests.post(request_url, data=params, headers=headers)
+if response:
+    print (response.json())
+```
+
 ## API使用价格
 - 通用物体检测
 
