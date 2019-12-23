@@ -97,8 +97,15 @@
 ![api使用2](image/api使用2.png)
 
 ## 原型2.信息设计 5%
-
-
+![1](image/1首页.png) ![api使用2](image/2拍照.png)
+![api使用2](image/3拍照确认.png) ![api使用2](image/4图片上传.png)
+![api使用2](image/5图片上传确认.png) ![api使用2](image/6物体识别成功.png)
+![api使用2](image/7单词本.png) ![api使用2](image/8单词回顾.png)
+![api使用2](image/9单词回顾-单词.png) ![api使用2](image/10单词复习.png)
+![api使用2](image/11错词本.png) ![api使用2](image/12错词本单词.png)
+![api使用2](image/13我的.png) ![api使用2](image/14个人基本信息.png)
+![api使用2](image/15学习情况.png) ![api使用2](image/16基本设置.png)
+![api使用2](image/17系统通知.png)
 
 ## 原型3.原型文档 5%
 
