@@ -81,6 +81,8 @@
 
 # 二、产品原型
 
+[点击查看产品原型]( http://nfunm089.gitee.io/api_ml_ai)
+
 ## 产品架构图
 ![产品架构图](image/产品架构图.png)
 
@@ -108,6 +110,9 @@
 
 ## 原型3.原型文档 5%
 
+[产品原型链接]( http://nfunm089.gitee.io/api_ml_ai)
+
+[产品原型文档](产品原型/产品原型文档.rp)
 
 # 三、API的输出入展示
 
@@ -147,7 +152,9 @@
 输入：文字 → 输出：音频
 
 [通用物体识别api使用文档](code/通用物体识别API文档.ipynb)
+
 [文本翻译api使用文档](code/文本翻译api文档.ipynb)
+
 [语音合成api使用文档](code/语音合成api文档.ipynb)
 
 
@@ -247,5 +254,7 @@
 ## API4.加分项
 
 [通用物体识别api使用文档](code/通用物体识别API文档.ipynb)
+
 [文本翻译api使用文档](code/文本翻译api文档.ipynb)
+
 [语音合成api使用文档](code/语音合成api文档.ipynb)
