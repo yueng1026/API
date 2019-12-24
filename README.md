@@ -116,32 +116,40 @@
 - 通用物体识别
 **调用输入**
 
-```
-# encoding:utf-8
-import requests 
+![通用物体识别api输入](image/通用物体识别api输入.png)
 
-# client_id 为官网获取的AK， client_secret 为官网获取的SK
-host = 'https://aip.baidubce.com/oauth/2.0/token?grant_type=client_credentials&client_id=你的AK&client_secret=你的SK'
-response = requests.get(host)
-if response:
-    print(response.json())
+**调用输出**
 
-import requests
-import base64
+![通用物体识别api输出](image/通用物体识别api输出.png)
 
-request_url = "https://aip.baidubce.com/rest/2.0/image-classify/v2/advanced_general"
-# 二进制方式打开图片文件
-f = open('图片路径', 'rb')
-img = base64.b64encode(f.read())
+输入：图片 → 输出：文字
 
-params = {"image":img}
-access_token = '24.4df7beea4c26f69ff9f9211c3d26d907.2592000.1578584383.282335-17992992'
-request_url = request_url + "?access_token=" + access_token
-headers = {'content-type': 'application/x-www-form-urlencoded'}
-response = requests.post(request_url, data=params, headers=headers)
-if response:
-    print (response.json())
-```
+- 文本翻译
+**调用输入**
+
+![文本翻译api输入](image/文本翻译api输入.png)
+
+**调用输出**
+
+![文本翻译api输出](image/文本翻译api输出.png)
+
+输入：文字（中文） → 输出：文字（英文）
+
+- 语音合成
+**调用输入**
+
+![语音合成api输入](image/语音合成api输入.png)
+
+**调用输出**
+
+![image/语音合成api输出.png](image/语音合成api输出.png)
+
+输入：文字 → 输出：音频
+
+[通用物体识别api使用文档](code/通用物体识别API文档.ipynb)
+[文本翻译api使用文档](code/文本翻译api文档.ipynb)
+[语音合成api使用文档](code/语音合成api文档.ipynb)
+
 
 ## API2.使用比较分析
 
@@ -237,3 +245,7 @@ if response:
 
 
 ## API4.加分项
+
+[通用物体识别api使用文档](code/通用物体识别API文档.ipynb)
+[文本翻译api使用文档](code/文本翻译api文档.ipynb)
+[语音合成api使用文档](code/语音合成api文档.ipynb)
