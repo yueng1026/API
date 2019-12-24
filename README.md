@@ -257,3 +257,15 @@
 [文本翻译api使用文档](code/文本翻译api文档.ipynb)
 
 [语音合成api使用文档](code/语音合成api文档.ipynb)
+
+# 清单
+
+[产品原型链接]( http://nfunm089.gitee.io/api_ml_ai)
+
+[产品原型文档](产品原型/产品原型文档.rp)
+
+[通用物体识别api使用文档](code/通用物体识别API文档.ipynb)
+
+[文本翻译api使用文档](code/文本翻译api文档.ipynb)
+
+[语音合成api使用文档](code/语音合成api文档.ipynb)
