@@ -1,5 +1,9 @@
 # 项目名称：幼儿拍照识物基础教育APP
 
+[40x40秒的带narration 语音口白的Powerpoint](prjC20X20.mp4)
+
+下载太慢（[点击这里](https://pan.baidu.com/s/1EXUSQF84DseP1LSMgxRi9g))
+
 项目名称 | 幼儿拍照识物基础教育APP
 ---|---
 发布日期 | 2019-12-04
