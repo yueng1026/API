@@ -1,6 +1,8 @@
 # 项目名称：“识物中英”APP(幼儿拍照识物基础教育APP)
 
-[40x40秒的带narration 语音口白的Powerpoint](prjC20X20.mp4)下载太慢[点击这里](https://pan.baidu.com/s/1EXUSQF84DseP1LSMgxRi9g)
+[40x40秒的带narration 语音口白的Powerpoint](prjC20X20.mp4) 下载太慢[点击这里](https://pan.baidu.com/s/1EXUSQF84DseP1LSMgxRi9g)
+
+[20x20PPT文件（无口音版本）](20X20.pptx)
 
 项目名称 | “识物中英”APP
 ---|---
